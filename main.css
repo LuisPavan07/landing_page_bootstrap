@@ -1,0 +1,107 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(7, 134, 13);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ffff;
+    color: rgb(7, 134, 13);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae5;
+}
+
+.carousel-item img {
+    height: 700px;
+    width: auto;
+}
+
+.section-title,
+.endereco,
+.navbar-collapse {
+    font-family: Permanent Marker, cursive;
+}
+
+p {
+    font-family: Lobster, cursive;
+    font-weight: bold;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #d3e9d3;
+}
+
+.about img {
+    height: 500px;
+}
+
+.text-colored {
+    color: rgb(7, 134, 13);
+}
+
+#eventos img {
+    height: 240px;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(7, 134, 13);
+    color: #fff;
+}
+
+#cardapio img {
+    height: 200px;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(7, 134, 13);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 300px;
+        width: auto;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%
+    }
+
+    .tab-content .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tab-content .col-md-3 {
+        flex: 0 0 calc(50% - 20px); 
+        margin: 10px;
+    }
+
+}
